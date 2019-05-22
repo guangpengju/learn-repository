@@ -1,8 +1,10 @@
-package com.gpj.spring;
+﻿package com.gpj.spring;
 
 import com.gpj.spring.bean.LearnBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class SpringTestApplication {
 	public static void main(String[] args) {
@@ -15,6 +17,5 @@ public class SpringTestApplication {
 		LearnBean bean = context.getBean(LearnBean.class);
 		// 这句将输出: hello world
 		System.out.println(bean.info());
-
 	}
 }
