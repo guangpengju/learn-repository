@@ -1,0 +1,13 @@
+server:
+  port: 0 #随机端口
+  servlet:
+    context-path: /server #工程名
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/,http://127.0.0.1:8762/eureka/ #eureka注册端地址
+  instance:
+    instance-id: ${spring.application.name}:${random.int} #eureka展示实例名称生成规则
+spring:
+  application:
+    name: project-server #eureka注册名称

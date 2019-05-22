@@ -1,0 +1,15 @@
+server:
+  port: 1111 #端口
+  servlet:
+    context-path: /client #工程名
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+#      ,http://127.0.0.1:8762/eureka/ #eureka注册端地址
+  instance:
+    instance-id: project-client #eureka展示实例名称
+#    hostname: www.baidu.com #设置客户端主机名
+spring:
+  application:
+    name: project-client #eureka注册名称

@@ -1,0 +1,10 @@
+mybatis: 
+  datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://bdm282742337.my3w.com:3306/bdm282742337_db?useUnicode=true&characterEncoding=utf-8
+      type: com.alibaba.druid.pool.DruidDataSource
+      username: bdm282742337
+      password: Gpj@4212395
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
