@@ -21,6 +21,7 @@
         <module>springcloud-server</module>
         <module>springcloud-client</module>
         <module>springcloud-client-feign</module>
+        <module>springcloud-client-hystrix</module>
     </modules>
     
     <parent>
