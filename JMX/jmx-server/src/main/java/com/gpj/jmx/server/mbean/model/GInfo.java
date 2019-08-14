@@ -23,10 +23,6 @@ public class GInfo {
         return infoReadableAttr;
     }
 
-    public void setInfoReadableAttr(String infoReadableAttr) {
-        this.infoReadableAttr = infoReadableAttr;
-    }
-
     public String getInfoWriteableAttr() {
         return infoWriteableAttr;
     }
